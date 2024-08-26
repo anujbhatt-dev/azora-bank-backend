@@ -28,7 +28,7 @@ app.use(express.json());
 // Enable CORS for all routes
 app.use(cors( 
     {
-    origin: 'https://adorable-dieffenbachia-54b416.netlify.app', // Allow only this origin
+    origin: 'http://localhost:5173', // Allow only this origin
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
     }
 ));
